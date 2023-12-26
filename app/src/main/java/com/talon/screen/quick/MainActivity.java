@@ -225,6 +225,7 @@ public class MainActivity extends AppCompatActivity implements ScreenShotHelper.
                     runOnUiThread(() -> Toast.makeText(MainActivity.this, djContext, Toast.LENGTH_LONG).show());
                 }
                 targetView.performClick();
+
                 break;
             }
 
